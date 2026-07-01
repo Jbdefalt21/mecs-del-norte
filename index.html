@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mecs del Norte: ingeniería, automatización, robótica y tecnología aplicada.">
+  <meta name="theme-color" content="#050505">
+  <title>Mecs del Norte | Ingeniería y Tecnología</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- Elimina únicamente el fondo negro del PNG original del logo. -->
+  <svg class="svg-filters" width="0" height="0" aria-hidden="true" focusable="false">
+    <filter id="remove-black" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  1 1 1 0 0"/>
+    </filter>
+  </svg>
+
+  <!-- Navegación principal -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a class="nav-brand" href="#inicio" aria-label="Mecs del Norte, inicio">
+        <img src="assets/logopequeno.png" alt="Mecs del Norte">
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a class="nav-link active" href="#inicio">Inicio</a></li>
+        <li><a class="nav-link" href="#nosotros">Sobre nosotros</a></li>
+        <li><a class="nav-link" href="#proyectos">Proyectos</a></li>
+        <li><a class="nav-link" href="#areas">Áreas</a></li>
+        <li><a class="nav-link" href="#galeria">Galería</a></li>
+        <li><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
+
+      <ul class="nav-social" aria-label="Redes sociales">
+        <li><a href="#contacto" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="#contacto" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a></li>
+        <li><a href="mailto:contacto@mecsdelnorte.mx" aria-label="Enviar correo"><i class="fa-regular fa-envelope" aria-hidden="true"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <!-- Hero -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 id="hero-title" class="sr-only">Mecs del Norte</h1>
+        <img class="hero-logo" src="assets/logo.png" alt="Mecs del Norte">
+        <p class="hero-disciplines" aria-label="Ingeniería, automatización, tecnología y proyectos">
+          <span>Ingeniería</span><b>•</b><span>Automatización</span><b>•</b><span>Tecnología</span><b>•</b><span>Proyectos</span>
+        </p>
+        <a class="button button-outline" href="#proyectos">Ver proyectos <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></a>
+      </div>
+      <a class="scroll-cue" href="#nosotros" aria-label="Descubrir más"><span></span></a>
+    </section>
+
+    <!-- Sobre nosotros -->
+    <section class="section about" id="nosotros" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <figure class="about-visual reveal visible">
+          <img src="assets/dron.png" alt="Dron de carreras en proceso de ensamblaje sobre una mesa de trabajo">
+          <figcaption><span>01</span> Precisión aplicada</figcaption>
+        </figure>
+
+        <article class="about-copy reveal visible">
+          <p class="eyebrow">Sobre nosotros</p>
+          <h2 id="about-title">Pasión por la ingeniería,<br>compromiso con la innovación.</h2>
+          <span class="accent-line" aria-hidden="true"></span>
+          <p>Somos un equipo de estudiantes y entusiastas de la mecatrónica enfocados en desarrollar soluciones reales a través de la tecnología, la automatización y el diseño.</p>
+          <p>Convertimos ideas en sistemas funcionales, combinando creatividad, método y precisión en cada etapa del proceso.</p>
+          <div class="metrics" aria-label="Datos del equipo">
+            <div><strong>08</strong><span>disciplinas</span></div>
+            <div><strong>360°</strong><span>visión integral</span></div>
+            <div><strong>01</strong><span>equipo</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Áreas de especialidad -->
+    <section class="section expertise" id="areas" aria-labelledby="areas-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Nuestras capacidades</p>
+            <h2 id="areas-title">Ingeniería sin límites.</h2>
+          </div>
+          <p>Integramos hardware, software y manufactura para resolver desafíos complejos con soluciones claras.</p>
+        </div>
+
+        <div class="areas-grid">
+          <article class="area-card reveal"><span>01</span><i class="fa-solid fa-robot" aria-hidden="true"></i><h3>Robótica</h3><p>Sistemas autónomos y mecanismos inteligentes diseñados para operar con precisión.</p></article>
+          <article class="area-card reveal"><span>02</span><i class="fa-solid fa-gears" aria-hidden="true"></i><h3>Automatización</h3><p>Procesos optimizados que transforman tareas repetitivas en flujos eficientes.</p></article>
+          <article class="area-card reveal"><span>03</span><i class="fa-solid fa-microchip" aria-hidden="true"></i><h3>Electrónica</h3><p>Control, potencia y sensórica integrados desde el prototipo hasta la solución final.</p></article>
+          <article class="area-card reveal"><span>04</span><i class="fa-solid fa-industry" aria-hidden="true"></i><h3>Manufactura</h3><p>Fabricación inteligente con atención rigurosa al material y al proceso.</p></article>
+          <article class="area-card reveal"><span>05</span><i class="fa-solid fa-cube" aria-hidden="true"></i><h3>CAD</h3><p>Modelado tridimensional y documentación técnica lista para producir.</p></article>
+          <article class="area-card reveal"><span>06</span><i class="fa-solid fa-print" aria-hidden="true"></i><h3>Impresión 3D</h3><p>Prototipado ágil para validar geometrías, ensambles y nuevas ideas.</p></article>
+          <article class="area-card reveal"><span>07</span><i class="fa-solid fa-code" aria-hidden="true"></i><h3>Programación</h3><p>Software confiable que conecta interfaces, dispositivos y datos.</p></article>
+          <article class="area-card reveal"><span>08</span><i class="fa-solid fa-brain" aria-hidden="true"></i><h3>Inteligencia artificial</h3><p>Modelos y visión computacional aplicados a decisiones más inteligentes.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos destacados -->
+    <section class="section projects" id="proyectos" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">Trabajo seleccionado</p><h2 id="projects-title">Proyectos que se mueven.</h2></div>
+          <p>Del primer boceto a la prueba en campo: desarrollamos tecnología que existe más allá de la pantalla.</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card project-robot reveal">
+            <div class="project-image" role="img" aria-label="Concepto de brazo robótico"><i class="fa-solid fa-robot" aria-hidden="true"></i><span>Robotics / 01</span></div>
+            <div class="project-copy"><p class="project-type">Robótica industrial</p><h3>Brazo de precisión M-01</h3><p>Plataforma de seis ejes para automatizar tareas de manipulación, inspección y ensamble.</p><a href="#contacto">Más información <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div>
+          </article>
+
+          <article class="project-card project-drone reveal">
+            <div class="project-image" role="img" aria-label="Concepto de dron autónomo"><i class="fa-solid fa-plane-up" aria-hidden="true"></i><span>Autonomy / 02</span></div>
+            <div class="project-copy"><p class="project-type">Sistemas autónomos</p><h3>Plataforma aérea Nómada</h3><p>Dron modular para exploración, captura de datos y experimentación con control autónomo.</p><a href="#contacto">Más información <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div>
+          </article>
+
+          <article class="project-card project-vision reveal">
+            <div class="project-image" role="img" aria-label="Concepto de visión artificial"><i class="fa-solid fa-eye" aria-hidden="true"></i><span>Vision / 03</span></div>
+            <div class="project-copy"><p class="project-type">IA aplicada</p><h3>Visión de control Q-3</h3><p>Sistema de inspección visual para detectar, clasificar y registrar piezas en tiempo real.</p><a href="#contacto">Más información <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="section gallery" id="galeria" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">Dentro del taller</p><h2 id="gallery-title">Ideas en construcción.</h2></div>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-main reveal"><img src="assets/fondo.png" alt="Brazo robótico en el taller"><figcaption>Integración robótica <span>01</span></figcaption></figure>
+          <figure class="gallery-item gallery-crop-a reveal"><img src="assets/fondo.png" alt="Detalle de equipo industrial"><figcaption>Prototipado <span>02</span></figcaption></figure>
+          <figure class="gallery-item gallery-crop-b reveal"><img src="assets/fondo.png" alt="Tecnología en laboratorio"><figcaption>Pruebas de campo <span>03</span></figcaption></figure>
+          <figure class="gallery-item gallery-crop-c reveal"><img src="assets/fondo.png" alt="Mesa de manufactura"><figcaption>Manufactura <span>04</span></figcaption></figure>
+          <figure class="gallery-item gallery-brand reveal"><img src="assets/logo.png" alt="Identidad Mecs del Norte"><figcaption>Nuestra identidad <span>05</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="section contact" id="contacto" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-intro reveal">
+          <p class="eyebrow">Contacto</p>
+          <h2 id="contact-title">Construyamos algo<br><em>extraordinario.</em></h2>
+          <p>Cuéntanos tu idea, reto o colaboración. Nosotros ponemos la ingeniería en movimiento.</p>
+          <a href="mailto:contacto@mecsdelnorte.mx">contacto@mecsdelnorte.mx</a>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-field"><label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" autocomplete="name" required minlength="2" placeholder="Tu nombre"><small class="error" aria-live="polite"></small></div>
+          <div class="form-field"><label for="correo">Correo</label><input id="correo" name="correo" type="email" autocomplete="email" required placeholder="nombre@correo.com"><small class="error" aria-live="polite"></small></div>
+          <div class="form-field"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="4" required minlength="10" placeholder="Háblanos de tu proyecto"></textarea><small class="error" aria-live="polite"></small></div>
+          <button class="button button-solid" type="submit">Enviar mensaje <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="#inicio"><img src="assets/logopequeno.png" alt="Mecs del Norte"></a>
+      <p>Ingeniería para llevar las ideas más lejos.</p>
+      <div class="footer-social"><a href="#contacto" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#contacto" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a><a href="mailto:contacto@mecsdelnorte.mx" aria-label="Correo"><i class="fa-regular fa-envelope"></i></a></div>
+      <small>© <span id="year"></span> Mecs del Norte. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Volver arriba"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
