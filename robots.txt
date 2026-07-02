@@ -5,4 +5,4 @@ User-agent: *
 Allow: /
 
 # Ubicación absoluta del sitemap para facilitar la indexación.
-Sitemap: https://mecsdelnorte.mx/sitemap.xml
+Sitemap: https://jbdefalt21.github.io/mecs-del-norte/sitemap.xml
