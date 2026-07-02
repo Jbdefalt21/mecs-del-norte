@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sitemap XML del sitio público de Mecs del Norte. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Página principal. Las secciones con anclas pertenecen a esta misma URL. -->
+  <url>
+    <loc>https://mecsdelnorte.mx/</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
+</urlset>

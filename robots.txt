@@ -1,0 +1,8 @@
+# Estas reglas se aplican a todos los buscadores y rastreadores.
+User-agent: *
+
+# Se permite rastrear todo el contenido público del sitio.
+Allow: /
+
+# Ubicación absoluta del sitemap para facilitar la indexación.
+Sitemap: https://mecsdelnorte.mx/sitemap.xml
